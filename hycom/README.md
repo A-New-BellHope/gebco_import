@@ -1,5 +1,5 @@
 # HYCOM database
-Instructions to import sound speed profile data from [HYCOM](https://www.hycom.org/) along with [GEBCO](gebco/README.md) bathymetry data.
+Instructions to import sound speed profile data from [HYCOM](https://www.hycom.org/) along with [GEBCO](../gebco/README.md) bathymetry data.
 
 ## TLDR;
 Select a region and time on GEBCO and HYCOM, download .asc and .nc4, and convert to bellhop with MATLAB.
@@ -7,7 +7,7 @@ Select a region and time on GEBCO and HYCOM, download .asc and .nc4, and convert
 ## Example
 We will download a region and convert the data for use in [bellhop](https://github.com/A-New-BellHope/bellhopcuda).
 
-If you haven't already downloaded the bathymetry example from [GEBCO](gebco/README.md), then do so now.
+If you haven't already downloaded the bathymetry example from [GEBCO](../gebco/README.md), then do so now.
 
 1. Select a region and time
 
