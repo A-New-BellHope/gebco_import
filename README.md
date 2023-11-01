@@ -3,4 +3,5 @@ These notes describe a semi-manual route to download ocean bathymetry (depth) da
 
 # Databases
 - [GEBCO](gebco/README.md)
+- [HYCOM](hycom/README.md)
 
