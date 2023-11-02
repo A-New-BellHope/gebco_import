@@ -1,0 +1,136 @@
+bellhopcxx3D
+
+bellhopcxx- test for hycom and gebco import
+ frequency =  5.0000e+01 Hz
+Dummy parameter NMedia = 1
+
+    Hexahedral approximation to SSP
+    Attenuation units: dB/wavelength
+    VACUUM
+
+  Depth =   1.20e+04  m
+
+Sound speed profile from environment file has been overridden by .ssp file (hexahedral)
+
+
+Reading sound speed profile from file
+
+Number of points in x = 33
+
+Number of points in y = 38
+
+Number of points in z = 41
+
+
+ RMS roughness =  0.000e+00
+    Bathymetry file selected
+    ACOUSTO-ELASTIC half-space
+  5.50e+03   1.60e+03   0.00e+00 1.80e+00 8.0000e-01 0.0000e+00
+
+__________________________________________________________________________
+
+   Number of Source   x-coordinates, Sx = 1
+   Source   x-coordinates, Sx (km)
+     3.000000e+01 
+
+
+__________________________________________________________________________
+
+   Number of Source   y-coordinates, Sy = 1
+   Source   y-coordinates, Sy (km)
+     3.000000e+01 
+
+
+__________________________________________________________________________
+
+   Number of Source   z-coordinates, Sz = 1
+   Source   z-coordinates, Sz (m)
+     1.000000e+01 
+
+
+__________________________________________________________________________
+
+   Number of Receiver z-coordinates, Rz = 1
+   Receiver z-coordinates, Rz (m)
+     1.000000e+03 
+
+
+__________________________________________________________________________
+
+   Number of Receiver r-coordinates, Rr = 1001
+   Receiver r-coordinates, Rr (km)
+     0.000000e+00   1.000000e-01   2.000000e-01   3.000000e-01   4.000000e-01 
+     5.000000e-01   6.000000e-01   7.000000e-01   8.000000e-01   9.000001e-01 
+   ...   1.000000e+02
+
+
+__________________________________________________________________________
+
+   Number of Receiver bearings, theta = 6
+   Receiver bearings, theta (degrees)
+     0.000000e+00   7.000000e+01   1.400000e+02   2.100000e+02   2.800000e+02 
+     3.500000e+02 
+
+
+Ray trace run
+Geometric hat beams in Cartesian coordinates
+Point source (cylindrical coordinates)
+Rectilinear receiver grid: Receivers at Rr[:] x Rz[:]
+3D calculation
+__________________________________________________________________________
+
+   Number of beams in elevation   = 5
+   Beam take-off angles (degrees)
+ -2.000000e+01  -1.000000e+01   0.000000e+00   1.000000e+01   2.000000e+01 
+
+
+   Number of beams in bearing     = 19
+   Beam take-off angles (degrees)
+ -1.800000e+02  -1.610526e+02  -1.421053e+02  -1.231579e+02  -1.042105e+02 
+ -8.526316e+01  -6.631579e+01  -4.736842e+01  -2.842105e+01  -9.473684e+00 
+...   1.610526e+02
+
+__________________________________________________________________________
+
+
+ Step length,       deltas =  1.2000e+03 m
+
+Maximum ray x-range, Box.x  =  2.0100e+04 m
+Maximum ray y-range, Box.y  =  2.0100e+04 m
+Maximum ray z-range, Box.z  =  1.1000e+04 m
+
+Geometric beam, hat-shaped, Cart. coord.
+No beam shift in effect
+Regular grid for a 3D run
+
+Number of altimetry points in x 2
+ -1.000000e+25   1.000000e+25 
+
+Number of altimetry points in y 2
+ -1.000000e+25   1.000000e+25 
+
+__________________________________________________________________________
+
+Using bottom-bathymetry file
+Regular grid for a 3D run
+
+Number of bathymetry points in x 607
+  0.000000e+00   3.923080e-01   7.846170e-01   1.176925e+00   1.569233e+00 
+  1.961542e+00   2.353850e+00   2.746158e+00   3.138467e+00   3.530775e+00 
+  3.923083e+00   4.315392e+00   4.707700e+00   5.100008e+00   5.492316e+00 
+  5.884625e+00   6.276933e+00   6.669241e+00   7.061550e+00   7.453858e+00 
+  7.846166e+00 ...   2.377333e+02
+
+Number of bathymetry points in y 348
+  0.000000e+00   4.620530e-01   9.241050e-01   1.386159e+00   1.848212e+00 
+  2.310266e+00   2.772320e+00   3.234375e+00   3.696429e+00   4.158484e+00 
+  4.620540e+00   5.082595e+00   5.544651e+00   6.006708e+00   6.468764e+00 
+  6.930821e+00   7.392878e+00   7.854936e+00   8.316993e+00   8.779052e+00 
+  9.241110e+00 ...   1.603507e+02
+
+Number of source beam pattern points 2
+
+ Angle (degrees)  Power (dB)
+-1.800e+02 0.000e+00
+1.800e+02 0.000e+00
+
